@@ -5,3 +5,5 @@ const router = express.Router();
 
 
 router.use('/',controler.getHome);
+
+module.exports = router;
