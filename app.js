@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 
 const homeRoute = require('./routes/index');
+const err = require('./routes/404');
 
 const app = express();
 
@@ -17,6 +18,6 @@ app.use(homeRoute);
 
 
 
-
+app.use(err);
 
 app.listen(3000);
