@@ -8,6 +8,7 @@ const err = require('./routes/404');
 
 const app = express();
 
+app.use(bodyParser.urlencoded({extended:false}));
 app.set('view engine','ejs');
 app.set('views','views');
 
