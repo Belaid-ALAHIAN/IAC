@@ -268,12 +268,12 @@ footer p {
     height: 100%;
 }
 .pic-main{
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hierarchy.gif);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hierarchy.gif);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+  
     transform: scale(1, 1);
     position: relative;
+    
+}
+
+.image{
+    width: 100%;
 }
