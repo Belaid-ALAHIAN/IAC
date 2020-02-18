@@ -2,7 +2,10 @@
   "name": "ibnjazari",
   "version": "1.0.0",
   "description": "",
-  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001bapp\u001b[C\u001b[C\u001b[C\u001b.js\u001b[C\u001b[\u001b[C)",
+  "main": "app.js",
+  "engines": {
+    "node":"11.3.0"
+  },
   "scripts": {
     "start": "nodemon app.js"
   },
